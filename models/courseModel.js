@@ -14,7 +14,7 @@ const courseSchema = Schema({
     enrolled: Number,
     originalPrice: Number,
     currentPrice: Number,
-    status: String
+    label: String
 });
 
 module.exports = model('Course', courseSchema);
